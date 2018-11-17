@@ -9,13 +9,14 @@
          </div>
 
          <div class="banner-element right">
-          <h1 class='title bg-hf-pink'>Apprendre à oser</h1>
-          <p class='text-justify'>Nous ce qu’on veut c’est te donner de la force/du power pour OSER.
+          <h4 class='title bg-hf-pink'>Apprendre à oser</h4>
+          <br>
+          <p class='text-justify'>Nous ce qu’on veut c’est te donner de la force/du power pour <strong>OSER</strong>.
           Et ouais, rien que ça.</p>
-          <p>Te montrer que tu peux apprendre l’espagnol, monter ta boîte, partir à l’aventure, se lancer dans la musique ou courir un marathon sans être wonder women.</p>
-          <p>Non ce n’est pas inée, et non ce n’est pas réservé qu’à certaines femmes.</p>
+          <p class='text-justify'>Te montrer que tu peux apprendre l’espagnol, monter ta boîte, partir à l’aventure, se lancer dans la musique ou courir un marathon sans être wonder women.</p>
+          <p class='text-justify'>Non ce n’est pas inée, et non ce n’est pas réservé qu’à certaines femmes.</p>
 
-          <p>On entend bien te prouver tout ça en t’envoyant 2 fois par mois des portraits, des histoires de femmes inspirantes.</p>
+          <p class='text-justify'>On entend bien te prouver tout ça en t’envoyant <strong>2 fois par mois des portraits, des histoires de femmes inspirantes</strong>.</p>
          </div>
 
        </div>
@@ -27,18 +28,22 @@
 
 <div class='bg-hf-green text-white'>
   <div class="container">
-    <h2 class='title bg-hf-yellow mx-auto'>Concept</h2>
-    <p class='text-center'>
-      On voulait voir nos amies, toutes les femmes qui nous entourent heureuses et capable de faire tout ce qu’elles veulent. L’histoire a commencé comme ça.</p>
-      <p class='text-center'>Dans diverses circonstances on a rencontré quelques femmes inspirantes, qui faisaient preuve de créativité et d’audace.
-      On était complètement inspiré.
-      On voulait plus de femmes comme ça dans nos vies. On voulait savoir pourquoi elles font ce qu’elles font, comment elles sont arrivées là où elles sont. On voulait entendre leurs histoires et apprendre comment elles arrivaient à réaliser leurs souhaits.</p>
+      <div class="banner">
+        <h4 class='title bg-hf-yellow mx-auto'>Concept</h4>
+        <br>
+        <p class='text-center'>
+          On voulait voir nos amies, toutes les femmes qui nous entourent heureuses et capable de faire <strong>tout ce qu’elles veulent. L’histoire a commencé comme ça</strong>.</p>
+          <p class='text-center'>Dans diverses circonstances on a rencontré quelques femmes inspirantes, qui faisaient preuve de créativité et <strong>d’audace</strong>.
+          On était complètement inspiré.
+          On voulait <strong>plus de femmes</strong> comme ça dans nos vies. On voulait savoir pourquoi elles font ce qu’elles font, comment elles sont arrivées là où elles sont. On voulait entendre leurs histoires et apprendre comment elles arrivaient à réaliser leurs souhaits.</p>
 
-      <p class='text-center'>On a créée Hello Frida pour entrainer le plus de femmes qui ont un projet dans la tête ou dans leur tiroir et qui ont juste besoin d’un petit shot pour oser se lancer.
-      Pour cela nous vous emmenons à la rencontre de femmes inspirantes, ambitieuses, talentueuses, drôles - ou tout ça à la fois. Des femmes comme vous.</p>
+          <p class='text-center'>On a créée <strong>Hello Frida</strong> pour entrainer le plus de femmes qui ont un projet dans la tête ou dans leur tiroir et qui ont juste besoin d’un petit shot pour oser se lancer.
+          Pour cela nous vous emmenons à la rencontre de femmes <strong>inspirantes</strong>, ambitieuses, <strong>talentueuses</strong>, drôles - ou tout ça à la fois. Des femmes comme <strong>vous</strong>.</p>
 
-      <p class='text-center'>Notre promesse : vous vous sentirez boostée, badass, et bien dans vos baskets.
-      Pour nous faire un coucou : hello@hellofrida.com</p>
+          <p class='text-center'>Notre promesse : vous vous sentirez boostée, badass, et bien dans vos baskets.
+          Pour nous faire un coucou : <strong>hello@hellofrida.com</strong></p>
+
+      </div>
   </div>
 </div>
 
@@ -46,13 +51,24 @@
 
 <div class='bg-hf-pink '>
   <div class="container">
-    <h2 class='title bg-hf-blue mx-auto'>Ton shot de Power</h2>
-    <p class='text-center'>
-      2 fois/mois dans ta boîte mail : un portrait, des histoires et des recommandations de femmes inspirantes. </p>
-      <%= simple_form_for @subscription, remote: true do |f| %>
-        <%= f.input :email %>
-        <%= f.button :submit, "S'inscrire" %>
-      <% end %>
+    <div class="banner">
+      <h4 class='title bg-hf-blue mx-auto'>Ton shot de Power</h4>
+      <br>
+      <p class='text-center'>
+        <strong>2 fois/mois dans ta boîte mail</strong> : un portrait, des histoires et des recommandations de femmes inspirantes. </p>
+        <br>
+        <form class="form-inline text-center">
+          <div class="form-group">
+            <%= simple_form_for @subscription, remote: true do |f| %>
+            <%= f.input :email %>
+            <%= f.button :submit, "Je m'inscris" %>
+            <% end %>
+          </div>
+          <br>
+            <p class='text-center'>
+            <em>Promis, on abusera jamais de ta boîte mail</em></p>
+        </form>
+    </div>
   </div>
 </div>
 
