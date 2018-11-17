@@ -8,3 +8,42 @@ $orange: #E67E22;
 $green: #32B796;
 $gray: #000000;
 $light-gray: #F4F4F4;
+
+
+$hf-green: rgb(79,166,148);
+$hf-yellow: rgb(248,220,74);
+$hf-pink: rgb(248,218,220);
+$hf-blue: rgb(70,95,190);
+$hf-purple: rgb(181,178,212);
+$hf-orange: rgb(228,114,56);
+
+.bg-hf-green {
+  background-color: $hf-green;
+}
+
+.bg-hf-blue {
+  background-color: $hf-blue;
+}
+
+.bg-hf-pink {
+  background-color: $hf-pink;
+}
+
+.bg-hf-yellow {
+  background-color: $hf-yellow;
+}
+
+.bg-hf-orange {
+  background-color: $hf-orange;
+}
+
+.bg-hf-purple {
+  background-color: $hf-purple;
+}
+
+.text-white {
+  color: white;
+}
+
+
+
