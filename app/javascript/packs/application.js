@@ -25,7 +25,7 @@ function createSubscription(email) {
 sendBtn.addEventListener('click', (event) => {
   event.preventDefault()
   const email = input.value
-  // input.value = ''
+  input.value = ''
   createSubscription(email)
 })
 

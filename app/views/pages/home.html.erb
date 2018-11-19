@@ -60,7 +60,7 @@
         <form class="form-inline text-center">
           <div class="form-group">
             <%= simple_form_for @subscription, remote: true do |f| %>
-            <%= f.input :email, placeholder:'Email' %>
+            <%= f.input :email, placeholder:'Email', label: false %>
             <%= f.button :submit, "Je m'inscris", id: "send-subscription" %>
             <% end %>
           </div>
