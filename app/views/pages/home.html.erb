@@ -61,7 +61,7 @@
           <div class="form-group">
             <%= simple_form_for @subscription, remote: true do |f| %>
             <%= f.input :email, placeholder:'Email' %>
-            <%= f.button :submit, "Je m'inscris" %>
+            <%= f.button :submit, "Je m'inscris", id: "send-subscription" %>
             <% end %>
           </div>
           <br>
