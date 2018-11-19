@@ -4,5 +4,6 @@ class SubscriptionsController < ApplicationController
   def create
     puts "PARAMS"
     puts params
+    render json: params
   end
 end

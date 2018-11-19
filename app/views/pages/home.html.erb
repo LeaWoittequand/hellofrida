@@ -49,9 +49,9 @@
     <h2 class='title bg-hf-blue mx-auto'>Ton shot de Power</h2>
     <p class='text-center'>
       2 fois/mois dans ta boîte mail : un portrait, des histoires et des recommandations de femmes inspirantes. </p>
-      <%= simple_form_for @subscription, remote: true do |f| %>
+      <%= simple_form_for @subscription do |f| %>
         <%= f.input :email %>
-        <%= f.button :submit, "S'inscrire" %>
+        <%= f.button :submit, "S'inscrire", id: "send-subscription" %>
       <% end %>
   </div>
 </div>
