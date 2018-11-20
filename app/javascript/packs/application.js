@@ -14,10 +14,10 @@ function createSubscription(email) {
     type: "POST",
     // TODO: Change message
     success: swal({
-      title: 'Merci!',
-      text: 'La newsletter arrive bientôt!',
+      title: 'Merci !',
+      text: 'La prochaine news arrive bientôt, à très vite!',
       type: 'success',
-      confirmButtonText: 'Cool'
+      confirmButtonText: 'Top !'
     })
   });
 }
