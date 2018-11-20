@@ -10,23 +10,15 @@
   justify-content: space-between;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
 
 /* Right section */
-.navbar-wagon-right {
+.navbar-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #616668;
+  font-size: 14px;
 }
 
 /* Basic navbar item */
