@@ -14,22 +14,30 @@
   background: $red;
 }
 
-.swal2-success-fix {
-  border-color: red;
-}
+// .swal2-success-fix {
+//   border-color: red;
+// }
 
-.swal2-styled {
-background-color: red;
-}
+// .swal2-styled {
+// background-color: red;
+// }
 
 .swal2-confirm{
   background-color: red;
+  border-left-color: rgb(60, 133, 214);
+  border-right-color: rgb(48, 200, 214);
 }
 
-.swal {
-  background-color: red;
-}
+// .swal {
+//   background-color: red;
+// }
 
-.swal-title {
-  color: red;
-}
+// .swal-title {
+//   color: red;
+// }
+
+// $swal:  #a5dc86 !default;
+
+// $swal-title:  #a5dc86 !default;
+
+// $swal-confirm:  #a5dc86 !default;
