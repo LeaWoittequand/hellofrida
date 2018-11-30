@@ -1,75 +1,80 @@
 <!-- First part -->
-<div class="bg-hf-blue">
-  <div class="container">
-      <div class="banner">
-       <div class="banner-content">
+<section id="apprendre_a_oser">
+  <div class="bg-hf-blue">
+    <div class="container">
+        <div class="banner">
+         <div class="banner-content">
 
-         <div class="banner-element left">
-          <%= image_tag 'logo.png', class:"img-responsive" %>
+           <div class="banner-element left">
+            <%= image_tag 'logo.png', class:"img-responsive" %>
+           </div>
+           <div class="banner-element right">
+            <h4 href="#apprendre_a_oser" class='title bg-hf-pink'>Apprendre à oser</h4>
+            <br>
+            <p class='text-justify'>Avec Hello Frida, on veut te donner de la force pour <strong>OSER</strong>.
+            Et ouais, rien que ça.</p>
+            <p class='text-justify'>Te montrer que tu peux apprendre l’espagnol, monter ta boîte, partir à l’aventure, te lancer dans la musique ou courir un marathon sans être wonder woman.</p>
+            <p class='text-justify'>Non ce n’est pas inné, et non, ce n’est pas réservé qu’à certaines femmes.</p>
+
+            <p class='text-justify'>On entend bien te prouver tout ça en t’envoyant <strong>2 fois par mois des portraits, des histoires de femmes inspirantes</strong>.</p>
+           </div>
+
          </div>
-
-         <div class="banner-element right">
-          <h4 class='title bg-hf-pink'>Apprendre à oser</h4>
-          <br>
-          <p class='text-justify'>Nous ce qu’on veut c’est te donner de la force/du power pour <strong>OSER</strong>.
-          Et ouais, rien que ça.</p>
-          <p class='text-justify'>Te montrer que tu peux apprendre l’espagnol, monter ta boîte, partir à l’aventure, se lancer dans la musique ou courir un marathon sans être wonder women.</p>
-          <p class='text-justify'>Non ce n’est pas inée, et non ce n’est pas réservé qu’à certaines femmes.</p>
-
-          <p class='text-justify'>On entend bien te prouver tout ça en t’envoyant <strong>2 fois par mois des portraits, des histoires de femmes inspirantes</strong>.</p>
-         </div>
-
-       </div>
-      </div>
+        </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Second PArt -->
 
-<div class='bg-hf-green text-white'>
-  <div class="container">
-      <div class="banner">
-        <h4 class='title bg-hf-yellow mx-auto'>Concept</h4>
-        <br>
-        <p class='text-center'>
-          On voulait voir nos amies, toutes les femmes qui nous entourent heureuses et capable de faire <strong>tout ce qu’elles veulent</strong>. L’histoire a commencé comme ça.</p>
-          <p class='text-center'>Dans diverses circonstances on a rencontré quelques femmes inspirantes, qui faisaient preuve de créativité et <strong>d’audace</strong>.
-          On était complètement inspiré.
-          On voulait <strong>plus de femmes</strong> comme ça dans nos vies. On voulait savoir pourquoi elles font ce qu’elles font, comment elles sont arrivées là où elles sont. On voulait entendre leurs histoires et apprendre comment elles arrivaient à réaliser leurs souhaits.</p>
+<section id="concept">
+  <div class='bg-hf-green text-white'>
+    <div class="container">
+        <div class="banner">
+          <h4 href="#concept" class='title bg-hf-yellow mx-auto'>Concept</h4>
+          <br>
+          <p class='text-center'>
+            On voulait voir nos amies, toutes les femmes qui nous entourent heureuses et capables de faire <strong>tout ce qu’elles veulent</strong>. L’histoire a commencé comme ça.</p>
+            <p class='text-center'>Dans diverses circonstances on a rencontré quelques femmes inspirantes, qui faisaient preuve de créativité et <strong>d’audace</strong>.
+            On était complètement inspiré.
+            On voulait <strong>plus de femmes</strong> comme ça dans nos vies. On voulait savoir pourquoi elles font ce qu’elles font, comment elles sont arrivées là où elles sont. On voulait entendre leurs histoires et apprendre comment elles arrivaient à réaliser leurs souhaits.</p>
 
-          <p class='text-center'>On a créée <strong>Hello Frida</strong> pour entrainer le plus de femmes qui ont un projet dans la tête ou dans leur tiroir et qui ont juste besoin d’un petit shot pour oser se lancer.</p>
+            <p class='text-center'>On a créée <strong>Hello Frida</strong> pour entrainer le plus de femmes qui ont un projet dans la tête ou dans leur tiroir et qui ont juste besoin d’un petit shot pour oser se lancer.</p>
 
-          <p class='text-center'>Pour cela nous vous emmenons à la rencontre de femmes <strong>inspirantes</strong>, ambitieuses, <strong>talentueuses</strong>, drôles - ou tout ça à la fois. Des femmes comme <strong>vous</strong>.</p>
+            <p class='text-center'>Pour cela nous vous emmenons à la rencontre de femmes <strong>inspirantes</strong>, ambitieuses, <strong>talentueuses</strong>, drôles - ou tout ça à la fois. Des femmes comme <strong>vous</strong>.</p>
 
-          <p class='text-center'>Notre promesse : vous vous sentirez boostée, badass, et bien dans vos baskets.
-          </p>
+            <p class='text-center'>Notre promesse : vous vous sentirez boostée, badass, et bien dans vos baskets.
+            </p>
 
-      </div>
+        </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Third PArt -->
 
-<div class='bg-hf-pink '>
-  <div class="container">
-    <div class="banner">
-      <h4 class='title bg-hf-blue mx-auto'>Ton shot de Power</h4>
-      <br>
-      <p class='text-center'>
-        <strong>2 fois/mois dans ta boîte mail</strong> : un portrait, des histoires et des recommandations de femmes inspirantes. </p>
+<section id="ton_shot_de_power">
+  <div class='bg-hf-pink '>
+    <div class="container">
+      <div class="banner">
+        <h4 href="#ton_shot_de_power" class='title bg-hf-blue mx-auto'>Ton shot de Power</h4>
         <br>
-        <form class="form-inline text-center">
-          <div class="form-group">
-            <%= simple_form_for @subscription, remote: true do |f| %>
-            <%= f.input :email, placeholder:'Email', label: false %>
-            <%= f.button :submit, "Je m'inscris", id: "send-subscription" %>
-            <% end %>
-          </div>
+        <p class='text-center'>
+          <strong>2 fois/mois dans ta boîte mail</strong> : un portrait, des histoires et des recommandations de femmes inspirantes. </p>
           <br>
-            <p class='text-center' >
-            <em style="font-size: 14px">Promis, on abusera jamais de ta boîte mail</em></p>
-        </form>
+          <form class="form-inline text-center">
+            <div class="form-group">
+              <%= simple_form_for @subscription, remote: true do |f| %>
+              <%= f.input :email, placeholder:'Email', label: false %>
+              <%= f.button :submit, "Je m'inscris", id: "send-subscription" %>
+              <% end %>
+            </div>
+            <br>
+              <p class='text-center' >
+              <em style="font-size: 14px">Promis, on abusera jamais de ta boîte mail</em></p>
+          </form>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
