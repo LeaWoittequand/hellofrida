@@ -1,5 +1,6 @@
 .banner {
   padding: 50px 0px;
+  padding-bottom: 6px;
 }
 
 .banner-content {
@@ -15,5 +16,26 @@
   }
   p {
     color:white;
+  }
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-responsive {
+  /*padding-bottom: 35%; ok quand vue destock*/
+  padding-bottom: 15%;
+  /*padding-bottom: 15%; ok quand vue mobile*/
+}
+.flex-items {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .flex-items {
+    width: 100%;
   }
 }
